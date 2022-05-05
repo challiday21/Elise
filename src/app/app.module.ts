@@ -8,6 +8,7 @@ import { PageAccueilComponent } from './pages/page-accueil/page-accueil.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { PageSignInComponent } from './pages/page-sign-in/page-sign-in.component';
+import { PageSignUpComponent } from './pages/page-sign-up/page-sign-up.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PageSignInComponent } from './pages/page-sign-in/page-sign-in.component
     NavBarComponent,
     PageAccueilComponent,
     FooterComponent,
-    PageSignInComponent
+    PageSignInComponent,
+    PageSignUpComponent
   ],
   imports: [
     BrowserModule,
